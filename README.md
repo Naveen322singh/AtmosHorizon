@@ -4,8 +4,8 @@ A sleek, dynamic, and fully-functional Android weather application that provides
 
 📸 Screenshots
 
-Splash Screen	Main Screen (Sunny)	Main Screen (Rainy)	Search Dialog
-<img src="/screenshots/splash.jpg" width="200">	<img src="/screenshots/sunny.jpg" width="200">	<img src="/screenshots/rainy.jpg" width="200">	<img src="/screenshots/search.jpg" width="200">
+<img src="/splashscreen.jpg" width="200"> <img src="/screenshot1.jpg" width="200">	<img src="/screenshot2.jpg" width="200">	
+
 ✨ Features
 Real-time Weather Data: Fetches live data from the OpenWeatherMap API.
 
@@ -48,34 +48,6 @@ Endpoint: https://api.openweathermap.org/data/2.5/weather
 
 Parameters: q={cityName}, appid={API_KEY}, units=metric
 
-📦 Installation
-Clone the repository
-
-bash
-git clone https://github.com/your-username/your-weather-app-repo.git
-Open in Android Studio
-Open the project in Android Studio (Arctic Fox or newer recommended).
-
-Get an API Key
-
-Sign up for a free account at OpenWeatherMap.
-
-Navigate to the API Keys tab and generate a new key.
-
-Add Your API Key
-
-Create a file named secrets.properties in your root project directory (add it to your .gitignore!).
-
-Add the following line to the file:
-
-properties
-WEATHER_API_KEY="YOUR_ACTUAL_API_KEY_HERE"
-In your build.gradle.kts (Module :app) file, ensure you can access this key (common practice).
-
-Build and Run
-
-Build the project and run it on an emulator or physical device.
-
 🎨 Customization
 The app's assets are easily customizable:
 
@@ -107,10 +79,5 @@ OpenWeatherMap for providing a robust and free weather API.
 LottieFiles for the amazing weather animations.
 
 Icons and UI inspiration from various designers on Figma.
-
-📧 Contact
-Your Name - @YourTwitterHandle - email@example.com
-
-Project Link: https://github.com/your-username/your-weather-app-repo
 
 ⭐️ If you found this project helpful, please give it a star on GitHub!
