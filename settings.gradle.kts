@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Climatmos"
+rootProject.name = "Atmos Horizon"
 include(":app")
