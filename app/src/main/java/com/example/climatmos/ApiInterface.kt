@@ -11,4 +11,12 @@ interface ApiInterface {
         @Query("appid") appid: String,
         @Query("units") units: String
     ): Call<weather_climatmos>
+
+    @GET("weather")
+    fun getWeatherByCoordinates(
+        @Query("lat") lat: Double,
+        @Query("lon") lon: Double,
+        @Query("appid") appid: String,
+        @Query("units") units: String
+    ): Call<weather_climatmos>
 }

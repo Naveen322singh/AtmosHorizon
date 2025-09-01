@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">Atmos Horizon</string>
+    <string name="location_button_desc">Get current location weather</string>
+    <string name="search_city_hint">Search your City</string>
+    <string name="today">Today</string>
+    <string name="temp_default">00:00 °C</string>
+    <string name="weather_default">SUNNY</string>
+    <string name="max_temp_default">Max: 00:00 °C</string>
+    <string name="min_temp_default">Min: 00:00 °C</string>
+    <string name="day_default">Tuesday</string>
+    <string name="date_default">25 August 2025</string>
+    <string name="humidity_icon_desc">Humidity icon</string>
+    <string name="humidity_default">00 %</string>
+    <string name="humidity_label">Humidity</string>
+    <string name="wind_icon_desc">Wind speed icon</string>
+    <string name="wind_speed_default">0.00 M/s</string>
+    <string name="wind_speed_label">Wind Speed</string>
+    <string name="condition_icon_desc">Weather condition icon</string>
+    <string name="condition_label">Condition</string>
+    <string name="sunrise_icon_desc">Sunrise icon</string>
+    <string name="time_default">00:00</string>
+    <string name="sunrise_label">Sunrise</string>
+    <string name="sunset_icon_desc">Sunset icon</string>
+    <string name="sunset_label">Sunset</string>
+    <string name="sea_icon_desc">Sea level icon</string>
+    <string name="sea_default">0000 hPa</string>
+    <string name="sea_label">Sea</string>
+    <string name="app_signature">Atmos Horizon\n By Naveen</string>
 </resources>
